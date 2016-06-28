@@ -15,6 +15,7 @@
 		4C4C17741CDDF77E00166474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4C17721CDDF77E00166474 /* LaunchScreen.storyboard */; };
 		4C4C177F1CDDF77F00166474 /* ParseDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C177E1CDDF77F00166474 /* ParseDataTests.m */; };
 		4C4C178A1CDDF77F00166474 /* ParseDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C17891CDDF77F00166474 /* ParseDataUITests.m */; };
+		4C4C17991CDDFEDB00166474 /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C17981CDDFEDB00166474 /* user.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4C4C17851CDDF77F00166474 /* ParseDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4C17891CDDF77F00166474 /* ParseDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseDataUITests.m; sourceTree = "<group>"; };
 		4C4C178B1CDDF77F00166474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4C17971CDDFEDB00166474 /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		4C4C17981CDDFEDB00166474 /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				4C4C17651CDDF77E00166474 /* main.m */,
+				4C4C17971CDDFEDB00166474 /* user.h */,
+				4C4C17981CDDFEDB00166474 /* user.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4C17991CDDFEDB00166474 /* user.m in Sources */,
 				4C4C176C1CDDF77E00166474 /* ViewController.m in Sources */,
 				4C4C17691CDDF77E00166474 /* AppDelegate.m in Sources */,
 				4C4C17661CDDF77E00166474 /* main.m in Sources */,
